@@ -19,7 +19,7 @@ public class Maximum {
         }
         System.out.println(max);
 
-        // 2nd approach to find max value in array
+        // 2nd approach to find maximum value in array
         Arrays.sort(arr);
         System.out.println(arr[len - 1]);
     }

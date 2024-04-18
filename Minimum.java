@@ -10,7 +10,7 @@ class Minimum {
             arr[i] = sc.nextInt();
         }
 
-        // 1st Approach to find minimum number of an array
+        // 1st Approach to find minimum number of an Array
         int min = arr[0];
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < min) {

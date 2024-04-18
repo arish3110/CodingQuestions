@@ -12,6 +12,7 @@ public class LastElement {
             }
 
             Arrays.sort(arr);
+            
             System.out.println("The last element of an array is " + arr[len -1]);
     }
 }
