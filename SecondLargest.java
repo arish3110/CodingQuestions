@@ -12,7 +12,7 @@ public class SecondLargest {
 
         Arrays.sort(arr);
 
-        if (n <= 1) {
+        if (n <=1) {
             System.out.println("-1");
         }
         else {
