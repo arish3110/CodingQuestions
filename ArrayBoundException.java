@@ -11,7 +11,7 @@ public class ArrayBoundException {
             System.out.println("Hellooo");
         }
         catch(ArrayIndexOutOfBoundsException e ){
-            System.out.println("Not printed");
+            System.out.println("Not printed because of "+e );
         }
        
     }
